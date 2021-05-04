@@ -11,7 +11,11 @@ export default function AboutMe() {
             <h1 className={s.name}>Olena Kononenko</h1>
             <h2 className={s.profession}>Front-End Developer</h2>
 
-            <p className={s.description}>Привет, меня зовут Елена</p>
+            <p className={s.description}>
+              Looking for a job for the position of Frontend (React) Developer
+              in friendly team. I'm responsible, attentive to detail, eager to
+              improve and have a drive to see things through to completion
+            </p>
           </div>
           <section className={s.proContainer}>
             {/* Projects */}
@@ -46,7 +50,10 @@ export default function AboutMe() {
                 <p className={s.proTechnologies}>
                   HTML5 - SASS - JS - GULP - Firebase - jQuery
                 </p>
-                <p className={s.proAbout}>Team Project</p>
+                <p className={s.proAbout}>
+                  Team project with deep collaboration and heavy interconnection
+                  of different subsystems
+                </p>
               </li>
               <li className={s.proItem}>
                 <a
@@ -60,7 +67,10 @@ export default function AboutMe() {
                 <p className={s.proTechnologies}>
                   HTML5 - SASS - PARCEL - jQuery
                 </p>
-                <p className={s.proAbout}>Team Project</p>
+                <p className={s.proAbout}>
+                  Working with a layout in a team project. Responsive business
+                  card webpage with css animation
+                </p>
               </li>
               <li className={s.proItem}>
                 <a
@@ -73,7 +83,7 @@ export default function AboutMe() {
                 </a>
                 <p className={s.proTechnologies}>HTML5 - CSS3</p>
                 <p className={s.proAbout}>
-                  The first student project utilizing newly aquired skills
+                  The very first student project utilizing newly aquired skills
                 </p>
               </li>
             </ul>

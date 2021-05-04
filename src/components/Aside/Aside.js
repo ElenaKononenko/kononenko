@@ -12,7 +12,13 @@ export default function SideBar() {
       <div className={s.mainContainer}>
         <div className={s.contactsContainer}>
           <h3 className={s.contactsTitle}>Contacts</h3>
-
+          <div className={s.contactsLink}>
+            <svg
+              className={s.contactsLinkType}
+              dangerouslySetInnerHTML={{ __html: useTag('location') }}
+            />
+            Kyiv, Ukraine
+          </div>
           <a className={s.contactsLink} href="tel:380630785567">
             <svg
               className={s.contactsLinkType}
@@ -26,13 +32,15 @@ export default function SideBar() {
               className={s.contactsLinkType}
               dangerouslySetInnerHTML={{ __html: useTag('mail') }}
             />
-            morra4444@gmail.com
+            olena.kononenko0
+            <br />
+            @gmail.com
           </a>
           <a
             className={s.contactsLink}
             target="_blank"
             rel="noreferrer"
-            href="https://www.linkedin.com/in/elena-kononenko-5b2288200/"
+            href="https://www.linkedin.com/in/olena-kononenko/"
           >
             <svg
               className={s.contactsLinkType}
